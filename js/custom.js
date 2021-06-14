@@ -39,23 +39,6 @@
 		}
 
 		/* ----------------------------------------------------------- */
-		/*  BUTTONS ANIMATION
-        /* ----------------------------------------------------------- */
-		function checkSize() {
-			if ($( document ).width() > 992) {
-				var btn_hover = "";
-				$(".btn").each(function() {
-					var btn_text = $(this).text();
-					$(this).addClass(btn_hover).empty().append("<span data-hover='" + btn_text + "'>" + btn_text + "</span>");
-				});
-			}
-		}
-		checkSize();
-		window.addEventListener('resize', function () {
-			checkSize();
-		});
-
-		/* ----------------------------------------------------------- */
 		/*  HIDE HEADER WHEN PORTFOLIO SLIDESHOW OPENED
         /* ----------------------------------------------------------- */
 
